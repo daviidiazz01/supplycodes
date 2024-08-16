@@ -14,7 +14,7 @@ $(document).ready(function () {
     step: function (state, circle) {
       circle.path.setAttribute('stroke', state.color);
 
-      var value = Math.round(circle.value() * 60);
+      var value = Math.round(circle.value() * 23);
       circle.setText(value);
 
     }
@@ -34,7 +34,7 @@ $(document).ready(function () {
     step: function (state, circle) {
       circle.path.setAttribute('stroke', state.color);
 
-      var value = Math.round(circle.value() * 254);
+      var value = Math.round(circle.value() * 23);
       circle.setText(value);
 
     }
@@ -54,7 +54,7 @@ $(document).ready(function () {
     step: function (state, circle) {
       circle.path.setAttribute('stroke', state.color);
 
-      var value = Math.round(circle.value() * 32);
+      var value = Math.round(circle.value() * 4);
       circle.setText(value);
 
     }

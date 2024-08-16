@@ -43,6 +43,12 @@ header,
 
 #navbar-links a {
     color: #FFF;
+    cursor: pointer;
+}
+
+#navbar-links a:hover {
+    color: #3EC1D5;
+    cursor: pointer;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
